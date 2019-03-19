@@ -1,5 +1,7 @@
-def valid_move?
-  
+def valid_move?(board, index)
+  if position_taken?(board, index)
+    false
+  elsif index.between?
 end
 
 def position_taken?(board, index)
